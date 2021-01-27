@@ -31,7 +31,7 @@ const addAnother = [
 function ask() {
     inquirer.prompt(selectEmployee).then((answers)=>{
      switch(answers.type){
-         case `manager`:
+         case `Manager`:
              getManager();
              break;
          case `Engineer`:
