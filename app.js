@@ -7,9 +7,9 @@ const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputpath = path.join(OUTPUT_DIR, "team.html");
-
+console.log (outputpath)
 const render = require("./lib/htmlRenderer");
-
+var employees=[]
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 const selectEmployee =[
@@ -25,7 +25,8 @@ const addAnother = [
         message: `Would you like to add another employee?`,
         type: `confirm`,
         name : `add`
-    },   
+    },  
+
 ]
 
 function ask() {
@@ -48,6 +49,8 @@ function asktoAdd(){
             ask();
         }
         else{
+        fs.writeFileSync(outputpath, render(employees)) 
+
         }
     })
 }
@@ -84,7 +87,8 @@ function getManager() {
                 answers.officerNumber,
             )
         
-        render(newManager)
+       
+        employees.push(newManager)
         asktoAdd();
         })
     }
@@ -121,8 +125,8 @@ function getEngineer() {
                 answers.github,
             )
         
-        render(newEngineer)
-        asktoAdd();
+            employees.push(newEngineer)
+            asktoAdd();
         })
 }
 function getIntern() {
@@ -157,7 +161,8 @@ function getIntern() {
                 answers.school,
             )
        
-        render(newIntern)
+        
+        employees.push(newIntern)
         asktoAdd();
         })
 }
