@@ -77,7 +77,7 @@ function getManager() {
         }
     ])
         .then((answers)=>{
-            const newManager = newManager(
+            const newManager = new Manager(
                 answers.name,
                 answers.id,
                 answers.email,
@@ -114,7 +114,7 @@ function getEngineer() {
         }
     ])
         .then((answers)=>{
-            const newEngineer = newEngineer(
+            const newEngineer = new Engineer(
                 answers.name,
                 answers.id,
                 answers.email,
