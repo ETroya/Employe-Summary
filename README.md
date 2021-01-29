@@ -1,17 +1,17 @@
 # Employee-Summary
 
-  * [Github](#username)
+  * [Github](#Github)
   * [Description](#Description)
-  * [Project](#project)
-  * [Tools](#tools)
-  * [License](#license)
+  * [Project](#Project)
+  * [Tools](#Tools)
+  * [License](#License)
   * [Snippet](#Snippet)
   * [Video](#Video)
-  * [Tests](#tests)
+  * [Tests](#Tests)
   
   
   ## Github
-  Etroya
+  https://github.com/ETroya
 
   ## Project
 
@@ -36,9 +36,8 @@
 
  ## Video
  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1PpAM16o4um6jJzs8PINECLV1UsADwSo_/preview)
-<!-- <iframe src="https://drive.google.com/file/d/1PpAM16o4um6jJzs8PINECLV1UsADwSo_/preview" width="640" height="480"></iframe> -->
- [Screenshot] ([Alt MainPage](./zasset/Homework.mp4))
 
+ 
 ## Tests
 
   Yes run test to ensure that the js linked to html
