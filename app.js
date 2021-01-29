@@ -75,7 +75,7 @@ function getManager() {
         },
         {
             message:`Enter Office Number`,
-            type: "input",
+            type: `input`,
             name: `officeNumber`
         }
     ])
@@ -84,7 +84,7 @@ function getManager() {
                 answers.name,
                 answers.id,
                 answers.email,
-                answers.officerNumber,
+                answers.officeNumber,
             )
         
        

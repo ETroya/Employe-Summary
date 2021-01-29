@@ -5,6 +5,7 @@
   * [Project](#project)
   * [Tools](#tools)
   * [License](#license)
+  * [Snippet](#Snippet)
   * [Tests](#tests)
   
   
@@ -29,7 +30,8 @@
 
   ETroya License
 
-  
+  ## Snippet
+ [Screenshot]([Alt MainPage](/snippet.PNG))
   ## Tests
 
   Yes run test to ensure that the js linked to html
