@@ -32,10 +32,12 @@
   ETroya License
 
   ## Snippet
- [Screenshot]([! Alt MainPage](/snippet.PNG))
+ [Screenshot]([Alt MainPage](./zasset/snippet.PNG))
 
  ## Video
-<iframe src="https://drive.google.com/file/d/1PpAM16o4um6jJzs8PINECLV1UsADwSo_/preview" width="640" height="480"></iframe>
+ [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1PpAM16o4um6jJzs8PINECLV1UsADwSo_/preview)
+<!-- <iframe src="https://drive.google.com/file/d/1PpAM16o4um6jJzs8PINECLV1UsADwSo_/preview" width="640" height="480"></iframe> -->
+ [Screenshot] ([Alt MainPage](./zasset/Homework.mp4))
 
 ## Tests
 
